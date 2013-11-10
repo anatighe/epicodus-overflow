@@ -13,7 +13,6 @@ class AnswersController < ApplicationController
     else 
       redirect_to @answer.question
     end
-
   end
 
 private
